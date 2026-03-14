@@ -1,7 +1,7 @@
-# Threat Hunting Scenario – Port of Entry
+<h1 align="center">Threat Hunting Scenario – Port of Entry</h1>
 
 <p align="center">
-Threat hunting investigation using Microsoft Defender for Endpoint to reconstruct a multi-stage attack involving RDP compromise, malware staging, defense evasion, persistence, credential dumping, data exfiltration, and lateral movement.
+  Threat hunting investigation using Microsoft Defender for Endpoint to reconstruct a multi-stage attack involving RDP compromise, malware staging, defense evasion, persistence, credential dumping, data exfiltration, and lateral movement.
 </p>
 
 <p align="center">
@@ -11,7 +11,16 @@ Threat hunting investigation using Microsoft Defender for Endpoint to reconstruc
   <img src="https://img.shields.io/badge/Domain-SOC%20Operations-success">
 </p>
 
-![Port of Entry](evidence/port-of-entry-cover.png)
+<p align="center">
+  <picture>
+    <!-- Dark mode -->
+    <source media="(prefers-color-scheme: dark)" srcset="assets/port-of-entry-banner-dark.png" alt="Threat Hunting Scenario – Port of Entry Banner" width="650">
+    <!-- Light mode -->
+    <source media="(prefers-color-scheme: light)" srcset="assets/port-of-entry-banner-light.png" alt="Threat Hunting Scenario – Port of Entry Banner" width="650">
+    <!-- Light mode fallback -->
+    <img src="assets/port-of-entry-banner-light.png" alt="Threat Hunting Scenario – Port of Entry Banner" width="650">
+  </picture>
+</p>
 
 ---
 
