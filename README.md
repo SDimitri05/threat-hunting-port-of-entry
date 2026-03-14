@@ -14,21 +14,19 @@
 <p align="center">
   <picture>
     <!-- Dark mode -->
-    <source media="(prefers-color-scheme: dark)" srcset="assets/port-of-entry-banner-dark.png" alt="Threat Hunting Scenario – Port of Entry Banner" width="650">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/port-of-entry-banner-dark.png">
     <!-- Light mode -->
-    <source media="(prefers-color-scheme: light)" srcset="assets/port-of-entry-banner-light.png" alt="Threat Hunting Scenario – Port of Entry Banner" width="650">
-    <!-- Light mode fallback -->
+    <source media="(prefers-color-scheme: light)" srcset="assets/port-of-entry-banner-light.png">
+    <!-- Fallback -->
     <img src="assets/port-of-entry-banner-light.png" alt="Threat Hunting Scenario – Port of Entry Banner" width="650">
   </picture>
 </p>
 
----
-
 ## Overview
 
-This project documents a threat hunting investigation conducted within Microsoft Defender for Endpoint Advanced Hunting.
+This project documents a threat hunting investigation conducted using Microsoft Defender for Endpoint Advanced Hunting and KQL queries to reconstruct attacker activity across the endpoint telemetry.
 
-The investigation analyzes suspicious activity involving a workstation belonging to **Azuki Import/Export Trading Co.**, where the organization suspected a compromise after a competitor began undercutting their shipping contracts.
+The investigation analyzes suspicious activity involving a workstation belonging to **Azuki Import/Export Trading Co.**, after a competitor began undercutting their shipping contracts.
 
 Using endpoint telemetry and KQL queries, the investigation reconstructs the attacker’s activity from **initial access to lateral movement**.
 
@@ -43,6 +41,17 @@ Using endpoint telemetry and KQL queries, the investigation reconstructs the att
 | Endpoint | AZUKI-SL workstation |
 | Timeframe | Nov 19–20 |
 | Investigation Type | Threat Hunt |
+
+---
+
+## Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Microsoft Defender for Endpoint | Endpoint detection and telemetry |
+| Advanced Hunting | Threat hunting queries |
+| KQL | Query language for telemetry analysis |
+| MITRE ATT&CK | Attack technique mapping |
 
 ---
 
@@ -98,7 +107,7 @@ Using endpoint telemetry and KQL queries, the investigation reconstructs the att
 
 Full investigation details are available here:
 
-`investigation/port-of-entry-threat-hunt-report.md`
+[View the Full Investigation Report](investigation/port-of-entry-threat-hunt-report.md)
 
 ---
 
